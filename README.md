@@ -5,7 +5,7 @@ This is my portfolio project for **Naman Digital Internship — Task 1**.
 It is a responsive, modern portfolio site built using React, TypeScript, Vite, Tailwind CSS, and shadcn-ui.
 
 ## Live Demo
-🔗 [Live Demo Link](<https://techbydeepak.github.io/deepak-portfolio/>)  
+🔗 [Live Demo Link](<https://deepak-portfolio-8tsjsa6nm-techbydeepaks-projects.vercel.app//>)  
 📂 [GitHub Repository](https://github.com/techbydeepak/deepak-portfolio)
 
 ## Features
