@@ -5,8 +5,8 @@ This is my portfolio project for **Naman Digital Internship — Task 1**.
 It is a responsive, modern portfolio site built using React, TypeScript, Vite, Tailwind CSS, and shadcn-ui.
 
 ## Live Demo
-🔗 [Live Demo Link](<your-live-demo-link>)  
-📂 [GitHub Repository](https://github.com/<techbydeepak>/namandigital_task1_portfolio)
+🔗 [Live Demo Link](<https://techbydeepak.github.io/deepak-portfolio/>)  
+📂 [GitHub Repository](https://github.com/techbydeepak/deepak-portfolio)
 
 ## Features
 - Responsive design (mobile & desktop)
@@ -32,10 +32,10 @@ Make sure you have **Node.js** and **npm** installed.
 ### Steps to Run Locally
 ```bash
 # Step 1: Clone this repository
-git clone https://github.com/<techbydeepak>/namandigital_task1_portfolio.git
+git clone https://github.com/<techbydeepak>/deepak_portfolio.git
 
 # Step 2: Go to the project folder
-cd namandigital_task1_portfolio
+cd deepak_portfolio
 
 # Step 3: Install dependencies
 npm install
