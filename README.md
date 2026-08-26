@@ -1,4 +1,4 @@
-# namandigital_task1_portfolio
+# Deepak_portfolio
 
 ## Project Info
 This is my portfolio project for **Naman Digital Internship — Task 1**.  
