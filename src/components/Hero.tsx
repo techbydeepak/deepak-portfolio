@@ -1,6 +1,6 @@
 import { Github, Linkedin, ArrowDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import profileImage from '../../public/lovable-uploadsDB DP.jpeg';
+import profileImage from '../../public/lovable-uploads/DB DP.jpeg';
 import heroOverlay from '@/assets/hero-overlay.jpg';
 
 const Hero = () => {
