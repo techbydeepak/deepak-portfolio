@@ -2,21 +2,22 @@ import { ExternalLink, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 
-import portfolioImg from "@/assets/portfolio-project.jpg";
-import cookingImg from "@/assets/cooking-project.jpg";
-import weatherImg from "@/assets/weather-project.jpg";
+import portfolioImg from "@/assets/dodge.png";
+import cookingImg from "@/assets/smart-search.png";
+import weatherImg from "@/assets/git-profile.png";
+import e_com from "@/assets/e-com.png";
 
 const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Portfolio Website",
+      title: "Dodge Service – Muscle Garage",
       description:
-        "A modern, responsive personal portfolio website showcasing my skills, projects, and experience. Built with React.js and Tailwind CSS with smooth UI and clean design.",
+        "A modern muscle-car themed automotive service website built with React.js, Node.js, Express.js, and MongoDB. Features dynamic content, gallery, hero slider, service showcase, and contact form.",
       image: portfolioImg,
-      tech: ["React.js", "Tailwind CSS", "TypeScript"],
-      github: "https://github.com/techbydeepak/deepak-portfolio",
-      live: "https://deepak-portfolio-beta-peach.vercel.app/",
+      tech: ["React.js", "Node.js", "Express.js", "MongoDB"],
+      github: "https://github.com/techbydeepak/dedge_service",
+      live: "https://dedge-service.onrender.com/",
     },
     {
       id: 2,
@@ -42,34 +43,34 @@ const Projects = () => {
     },
     {
       id: 4,
-      title: "Weather Forecast App",
+      title: "GitHub Profile Analyzer",
       description:
-        "A real-time weather app that provides current conditions and accurate forecasts. Simple and smooth UI with live weather updates for better user experience.",
+        "A GitHub profile analyzer that retrieves and displays user profiles, repositories, followers, and other GitHub data using REST API integration. Includes keyword-based profile scoring and debouncing.",
       image: weatherImg,
-      tech: ["React.js", "Weather API", "Tailwind CSS"],
-      github: "https://github.com/techbydeepak/namandigital_task2_weatherWeb",
-      live: "https://weather-app-xi-eight-79.vercel.app/",
+      tech: ["React.js", "JavaScript", "Tailwind CSS", "Context API", "REST APIs"],
+      github: "https://github.com/techbydeepak/GitHub-Analyzer",
+      live: "https://git-hub-analyzer-one.vercel.app/",
     },
     {
       id: 5,
-      title: "Online Compiler",
+      title: "E-Commerce Platform",
       description:
-        "An online compiler web app where users can write and run code instantly in the browser. Built with a clean interface for fast and efficient coding practice.",
+        "A responsive e-commerce application featuring product listings, cart functionality, and dynamic UI updates using reusable React components. Implemented Context API for global cart state management.",
       image:
-        "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80",
-      tech: ["React.js", "Node.js", "API", "Tailwind CSS"],
-      github: "https://github.com/techbydeepak/Online_Compiler",
-      live: "https://online-compiler-gamma-liart.vercel.app/",
+        e_com,
+      tech: ["React.js", "Context API", "Tailwind CSS", "State Management"],
+      github: "https://github.com/techbydeepak/e-com-2-0",
+      live: "https://e-com-2-0-rho.vercel.app/",
     },
     {
       id: 6,
-      title: "Cooking Website",
+      title: "Smart Search Application",
       description:
-        "A cooking/recipe website where users can explore delicious recipes with a modern UI and responsive layout. Smooth experience with clean design and fast navigation.",
+        "A dynamic search application with REST API integration, filtering, and real-time result rendering. Includes asynchronous API handling, loading and error states, light/dark theme management, and responsive design.",
       image: cookingImg,
-      tech: ["React.js", "Node.js", "MongoDB"],
-      github: "https://github.com/techbydeepak/namandigital_task4-cooking-blog",
-      live: "https://cooking-website-neon.vercel.app/",
+      tech: ["React.js", "JavaScript", "REST APIs", "Search & Filtering"],
+      github: "https://github.com/techbydeepak/smart-search",
+      live: "https://smart-search-theta.vercel.app/",
     },
   ];
 
